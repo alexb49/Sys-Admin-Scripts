@@ -11,7 +11,7 @@ DATABASE=_YOUR_DATABASE_NAME_
 DATE=`date +%Y-%m-%d`
 
 # Get the DB password
-PASSWORD_PATH="/root/secure/cmdb_pw"
+PASSWORD_PATH="/root/secure/_PW_FILE_"
 while IFS= read -r var
 do
   PASSWORD="$var"
